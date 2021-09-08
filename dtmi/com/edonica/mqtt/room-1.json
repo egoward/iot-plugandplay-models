@@ -1,0 +1,16 @@
+{
+  "@id": "dtmi:com:edonica:mqtt:Room;1",
+  "@type": "Interface",
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ],
+  "displayName": "Room",
+  "comment": "A room in the building, for example 'study' or 'hall'.",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "name",
+      "schema": "string"
+    }
+  ]
+}

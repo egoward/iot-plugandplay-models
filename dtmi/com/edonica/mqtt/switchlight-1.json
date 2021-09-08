@@ -1,0 +1,10 @@
+{
+  "@id": "dtmi:com:edonica:mqtt:SwitchLight;1",
+  "@type": "Interface",
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ],
+  "displayName": "Switch Light",
+  "comment": "A light with a switch.",
+  "extends": "dtmi:com:edonica:mqtt:Light;1"
+}

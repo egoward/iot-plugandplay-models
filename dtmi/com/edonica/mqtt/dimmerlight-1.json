@@ -1,0 +1,17 @@
+{
+  "@id": "dtmi:com:edonica:mqtt:DimmerLight;1",
+  "@type": "Interface",
+  "@context": [
+    "dtmi:dtdl:context;2"
+  ],
+  "displayName": "Dimmer Light",
+  "comment": "A light with a dimmer.",
+  "extends": "dtmi:com:edonica:mqtt:Light;1",
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "power",
+      "schema": "double"
+    }
+  ]
+}
